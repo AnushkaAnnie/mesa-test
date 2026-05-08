@@ -1,0 +1,13 @@
+.env
+github_app.pem
+__pycache__/
+*.pyc
+codereview.db
+node_modules/
+.DS_Store
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+chroma_db/
