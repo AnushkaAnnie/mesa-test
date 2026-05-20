@@ -1,7 +1,7 @@
 import math
 
 SEVERITY_PROBS = {"critical": 0.90, "high": 0.75, "medium": 0.55, "low": 0.35}
-THRESHOLD = 0.70
+THRESHOLD = 0.40
 
 
 def compute_score(severity: str, llm_certainty: float, recurrence_weight: float) -> float:
